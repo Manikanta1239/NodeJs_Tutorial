@@ -1,0 +1,26 @@
+1. To start with the NodeJs we need to install nodejs 
+
+            https://nodejs.org/en/download
+
+            install latest version with (LTS) only
+
+    To check weather nodejs installed or not open terminal with 
+        ->  windows + R  
+            ->  type  'cmd
+                ->  now type  'npm -v'
+                    11.0.0
+
+                ->  Start with Demo code in terminal
+                
+                    C:\Users\smani>node
+                    Welcome to Node.js v22.13.1.
+                    Type ".help" for more information.
+                    > console.log('Hello World');
+                    Hello World
+                    > .exit
+
+
+
+2. To start with the code editor we need to install VsCode
+
+            https://code.visualstudio.com/download

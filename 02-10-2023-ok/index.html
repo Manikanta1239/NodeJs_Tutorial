@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker & Name Reverser</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        p#result, p#nameResult, p#stringResult{
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Palindrome Checker</h1>
+    <input type="text" id="wordInput" placeholder="Enter a word">
+    <button onclick="checkPalindrome()">Check</button>
+    <p id="result"></p>
+
+    <h1>Name Reverser</h1>
+    <input type="text" id="nameInput" placeholder="Enter your name">
+    <button onclick="reverseName()">Reverse</button>
+    <p id="nameResult"></p>
+
+    <h1>String Reverser</h1>
+    <input type="text" id="stringInput" placeholder="Enter your String">
+    <button onclick="reverseStringOrder()">Str Reverse</button>
+    <p id="stringResult"></p>
+
+    <script src="task.js"></script>
+</body>
+</html>
